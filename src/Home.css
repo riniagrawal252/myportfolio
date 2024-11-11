@@ -1,0 +1,416 @@
+body{
+    background-image: url("src/assets/images/1695628780831.png");
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 96vw;
+          
+        position:relative;
+
+}
+
+  .link{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+    padding:15px;
+    color:black;
+    padding-left:50%;
+    width:53%;
+    border-radius: 25px;
+  }
+
+  .hov{
+    font-size: 23px;
+    
+  }
+  .hov:hover{
+    background-color: #eee1e1;
+    color:black;
+    
+  }
+  
+  .tick1{
+    
+
+        display: inline-block;
+        transform: translateX(100%); /* Start off-screen to the right */
+    animation: slideI 1s forwards ease-out; /* Animation on load */
+    
+  }
+  
+  /* Keyframes for sliding blog items from right to left */
+  @keyframes slideI {
+    to {
+      transform: translateX(0); /* End at the original position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+      .pree{
+        color:whitesmoke;
+        
+      }
+  
+  
+
+
+h1{
+    color:white;
+}
+.colour{
+    color:rgb(138, 6, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%; /* Make the gradient bigger so it can move */
+    animation: moveGradient 3s infinite linear;
+  }
+
+  @keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+
+.intro{
+    padding-left: 20%;
+    
+}
+.on1 h3{
+    padding-left:10%;
+    color:white;
+}
+.on2 h1{
+    padding-left:45%;
+}
+.on2 h3{
+    padding-left: 43%;
+    color:white;
+}
+.on3 h1{
+    padding-left: 20%;
+
+}
+.on4 h3{
+    color:white;
+    padding-left: 10%;
+}
+#myskills{
+    
+    width: 1330px;
+    height: 400px;
+    background-color: rgb(221, 211, 221);
+    border: 1px solid #ccc;
+}
+.myskill{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+}
+.colr h1{
+    color:rgb(138, 6, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right,  rgb(245, 6, 245), rgb(250, 82, 250), rgb(145, 17, 145), rgb(122, 23, 122));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%; /* Make the gradient bigger so it can move */
+    animation: moveGradient 3s infinite linear;
+}
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+
+
+.box1{
+    /* Box.css */
+    
+    width: 13%;
+    height: 110px;
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+  text-align: center;
+  transition: 0.3s;
+  color:white;
+  font-style: italic;
+    font-size: large;
+}
+.box1:hover{
+    background-color: rgb(233, 178, 235);
+    color:black;
+    
+}
+.box2{
+    /* Box.css */
+    
+    width: 13%;
+    height: 110px;
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.3s;
+    color:white;
+    font-style: italic;
+    font-size: large;
+  
+  
+}
+.box2:hover{
+    background-color: rgb(233, 178, 235);
+    color:black;
+    
+}
+.box3{
+    /* Box.css */
+    width: 13%;
+    
+    height: 110px;
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.3s;
+    color:white;
+    font-style: italic;
+    font-size: large;
+    
+  
+  
+}
+.box3:hover{
+    background-color: rgb(233, 178, 235);
+    color:black;
+    
+}
+.box4{
+    /* Box.css */
+    
+    width: 13%;
+    height: 110px;
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+    transition: 0.3s;
+    color:white;
+    font-style: italic;
+    font-size: large;
+  
+}
+.box4:hover{
+    background-color: rgb(233, 178, 235);
+    color:black;
+    
+}
+.box5{
+    /* Box.css */
+    width: 13%;
+    
+    height: 110px;
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.3s;
+    color:white;
+    font-style: italic;
+    font-size: large;
+  
+  
+}
+.box5:hover{
+    background-color:rgb(233, 178, 235);
+    color:black;
+    
+}
+
+
+
+.box6{
+    /* Box.css */
+    width: 13%;
+    height: 110px;
+    
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+    transition: 0.3s;
+    color:white;
+    font-style: italic;
+    font-size: large;
+}
+.box6:hover{
+    background-color:rgb(233, 178, 235);
+    color:black;
+    
+}
+.box7{
+    /* Box.css */
+    width: 13%;
+    height: 110px;
+
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+    transition: 0.3s;
+    color:rgb(236, 230, 236);
+    font-style: italic;
+    font-size: large;
+}
+.box7:hover{
+    background-color: rgb(233, 178, 235);;
+    color:black;
+
+    
+}
+.box8{
+    /* Box.css */
+    width: 13%;
+    height: 110px;
+
+    background-color: rgb(156, 27, 156);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+    transition: 0.3s;
+    color:rgb(236, 230, 236);
+    font-style: italic;
+    font-size: large;
+}
+.box8:hover{
+    background-color: rgb(233, 178, 235);;
+    color:black;
+
+    
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 25%;
+    border:20px;
+
+    
+
+    
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(4,220px);
+    border-radius:50px;
+    
+    
+    
+    
+}
+.img1:hover{
+   background-color : rgb(204, 11, 117);
+color:#eee1e1;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+
+
+}
+
+
+/* Keyframes for sliding blog items from right to left */
+/* Container for blogs */
+.blogs-container {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    width: 100%; /* Full width for horizontal scrolling */
+    height: 200px; /* Height for the container */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start; /* Align items to start */
+    align-items: center; /* Center items vertically */
+    white-space: nowrap; /* Prevent line break */
+    
+    
+  }
+  
+  /* Blog item */
+  .blog-item {
+    display: inline-block;
+    width: 300px; /* Fixed width for each blog item */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(100%); /* Start off-screen to the right */
+    animation: slideIn 1s forwards ease-out; /* Animation on load */
+    
+  }
+  
+  /* Keyframes for sliding blog items from right to left */
+  @keyframes slideIn {
+    to {
+      transform: translateX(0); /* End at the original position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+button{
+    background-color: blue;
+    color:#eee1e1;
+    
+}
+.images1{
+    width: 50%;
+    
+      height: 60%;
+      
+}
+
+.pree1{
+    border-radius: 50%;
+    width:20px;
+}
+.pree1:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
