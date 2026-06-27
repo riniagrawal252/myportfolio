@@ -8,7 +8,7 @@ const Home=()=>{
       <div className="tick1">
       <div className="sliding-box">
       <h1>I'm <span className='colour'>Rini Agrawal!</span></h1>
-      <div className='tickers'><h1> <span className='colour'>Java Full Stack Developer!!!</span></h1>
+      <div className='tickers'><h1> <span className='colour'>Graphic Designer!!!</span></h1>
       </div>
       </div>
       </div>
@@ -26,7 +26,7 @@ const Home=()=>{
       
       <h3>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h3>
 
-<h3>I am fluent in classics like <span className='colour'> C++, java </span></h3>
+<h3>I am fluent in classics like <span className='colour'> Figma, Graphic Designer </span></h3>
 
 <h3>My field of Interest's are building new <span className='colour'> Web Technologies and Products</span></h3>
 

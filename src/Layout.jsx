@@ -11,6 +11,7 @@ const Layout=()=>{
       <div className="hov"><Link to="project">Project</Link></div>
       <div className="hov"><Link to="resume">Resume</Link></div>
       <div className="hov"><Link to="blogs">Blogs</Link></div>
+      <div className="hov"><Link to="coverletter">Cover Letter</Link></div>
     
       </div>
       <Outlet/>

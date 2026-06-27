@@ -14,7 +14,7 @@ const About=()=>{
 
 </ul>
 <br/>
-"Strive to build things that make a difference!"
+"My space, My drive. My portfolio My life!"
 <br/>
 
         </h3>
@@ -25,8 +25,7 @@ const About=()=>{
 <div className="colr"><h1>Professsional SkillSets</h1></div>
 <div className="myskill">
 <div className="box1">JavaScript</div>
-<div className="box2">JAVA</div>
-<div className="box3">C++ programming</div>
+<div className="box3">Graphic Designer</div>
 
 
 

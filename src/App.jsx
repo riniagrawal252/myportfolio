@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
 import Resume from "./Resume";
+import Coverletter from "./Coverletter";
 import Blogs from "./Blogs";
 
 
@@ -19,6 +20,7 @@ const App=()=>{
           <Route path="about" element={<About/>} />
           <Route path="project" element={<Project/>} />
           <Route path="resume" element={<Resume/>}/>
+          <Route path="coverletter" element={<Coverletter/>}/>
           <Route path="blogs" element={<Blogs/>} />
       </Route>
 
